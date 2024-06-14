@@ -99,6 +99,23 @@
     font-weight: bold;
 }
 
+.container-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-weight: 800;
+    color: var(--bs-primary);
+    margin-bottom: 20px;
+}
+
+.image-section-3 {
+    width: 300px;
+    border-radius: 10px;
+}
+
 /* Media Queries */
 @media (min-width: 658px) {
     .logo {
@@ -113,6 +130,13 @@
     }
 
     .grid-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        text-align: left;
+    }
+
+    .grid-3 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
