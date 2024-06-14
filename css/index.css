@@ -1,0 +1,26 @@
+:root {
+    --bs-primary: #004d09; 
+}
+
+.navbar {
+    background-color: #004d09 !important;
+}
+
+.navbar-toggler{
+    background-color: #fff;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.col {
+    width: 100%; 
+}
+
+@media (min-width: 600px) {
+.col {
+    float: left;
+    width: 33.33%;
+}
+}
